@@ -12,13 +12,13 @@ lisMenuHeader[3].addEventListener("click", () => {
   nestedMenuDown.classList.toggle("active");
 });
 
-// window.addEventListener("load", () => {
-//   const loader = document.getElementById("loader");
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loader");
 
-//   setTimeout(() => {
-//     loader.classList.add("hidden");
-//   }, 500);
-// });
+  setTimeout(() => {
+    loader.classList.add("hidden");
+  }, 500);
+});
 
 // ! Slider
 let currentSlider = 0;
